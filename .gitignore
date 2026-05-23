@@ -1,0 +1,49 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+*.egg
+*.whl
+
+# Environments
+.env
+.venv
+venv/
+env/
+.env.local
+
+# Data & Models (don't commit raw data or large model files)
+data/*.csv
+data/*.parquet
+backend/models/*.pkl
+backend/models/*.joblib
+*.db
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Notebooks
+.ipynb_checkpoints/
+*.ipynb
+
+# OS
+.DS_Store
+Thumbs.db
+*.swp
+
+# IDE
+.vscode/
+.idea/
+*.sublime-project
+
+# Logs
+*.log
+logs/
+
+# Generated assets
+assets/plots/
